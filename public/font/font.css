@@ -1,0 +1,22 @@
+/* 加粗字体 */
+@font-face {
+  font-family: 'DinBold';
+  src: url('./DIN-Bold.otf');
+}
+/* 正常字体 */
+@font-face {
+  font-family: 'Din';
+  src: url('./DIN-Medium.otf');
+}
+/* 减淡字体 */
+@font-face {
+  font-family: 'DinReg';
+  src: url('./DIN.otf');
+}
+
+/* 游戏㊗️字体 */
+@font-face {
+  font-family: 'huakang';
+  src: url('./huakanghaibao.ttf');
+}
+
