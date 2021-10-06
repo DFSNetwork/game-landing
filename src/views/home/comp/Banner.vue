@@ -9,14 +9,18 @@
       <div>迷人的农场和建设</div>
       <div>者游戏！</div>
     </div> -->
-    <div class="btn flexc">进入游戏</div>
+    <div class="btn flexc" @click="handleTo">进入游戏</div>
   </div>
 </template>
 
 <script>
-  export default {
-    
+export default {
+  methods: {
+    handleTo() {
+      location.href = 'https://metaverse.defis.network/'
+    }
   }
+}
 </script>
 
 <style lang="scss" scoped>
