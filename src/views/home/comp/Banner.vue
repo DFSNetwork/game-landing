@@ -74,10 +74,6 @@ export default {
   position: relative;
   .nav{
     padding: 0 0px;
-    /deep/ .van-popover__wrapper{
-      // display: block;
-      // flex: 1;
-    }
   }
   .logo{
     width: 118px;
