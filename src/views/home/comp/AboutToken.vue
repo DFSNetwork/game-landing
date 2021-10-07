@@ -49,11 +49,15 @@ export default {
   data() {
     return {
       supply: '245',
-      dfsPrice: '-'
+      dfsPrice: '-',
+      timer: null,
     }
   },
   mounted() {
     this.handleGetDfsInfo()
+  },
+  beforeDestroy() {
+    clearTimeout(this.timer)
   },
   methods: {
     handleGetDfsInfo() {
@@ -74,10 +78,11 @@ export default {
       this.supply = supply.toFixed(2)
     },
     async handleGetPrice() {
+      clearTimeout(this.timer)
       const params = {
         code: 'defislinkeos',
         scope: '451',
-        table: 'avgprices',
+        table: 'twaps',
         json: true,
         limit: 3,
       }
@@ -86,8 +91,11 @@ export default {
         return
       }
       const rows = result.rows.find(vv => vv.key === 300) || []
-      const dfsPrice = rows.price0_avg_price / 10000;
+      const dfsPrice = rows.price0_avg_price / 1
       this.dfsPrice = dfsPrice.toFixed(2)
+      this.timer = setTimeout(() => {
+        this.handleGetPrice()
+      }, 10000);
     }
   }
 }
