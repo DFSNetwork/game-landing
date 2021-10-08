@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <div class="nav flexb">
-      <img class="logo" src="@/assets/img/logo.png">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/logo.png">
       <van-popover
         v-model="showPopover"
         trigger="click"
@@ -15,7 +15,7 @@
           <div class="list flexc" @click="handleToObj('opensky')">Marketplace</div>
         </div>
         <template #reference>
-          <img type="primary" class="more" src="@/assets/img/more.png">
+          <img type="primary" class="more" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/more.png">
         </template>
       </van-popover>
       

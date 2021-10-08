@@ -2,18 +2,18 @@
   <div class="footer">
     <div>DFS可以在以下交易所中获得</div>
     <div class="flexb defis">
-      <img src="@/assets/img/DFS.png" @click="handleToObj('dfs')" alt="">
-      <img src="@/assets/img/MXC.png" @click="handleToObj('mxc')" alt="">
-      <img src="@/assets/img/HOO.png" @click="handleToObj('hoo')" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/DFS.png" @click="handleToObj('dfs')" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/MXC.png" @click="handleToObj('mxc')" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/HOO.png" @click="handleToObj('hoo')" alt="">
     </div>
     <div class="links flexc">
-      <img src="@/assets/img/telegram.png" @click="handleToObj('telegram')" alt="">
-      <img src="@/assets/img/discord.png" @click="handleToObj('discord')" alt="">
-      <img src="@/assets/img/github.png" @click="handleToObj('github')" alt="">
-      <img src="@/assets/img/twitter.png" @click="handleToObj('twitter')" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/telegram.png" @click="handleToObj('telegram')" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/discord.png" @click="handleToObj('discord')" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/github.png" @click="handleToObj('github')" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/twitter.png" @click="handleToObj('twitter')" alt="">
     </div>
     <div class="flexc logo">
-      <img src="@/assets/img/footLogo.png" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/footLogo.png" alt="">
       <span>Join Farm Day！</span>
     </div>
   </div>

@@ -2,7 +2,7 @@
   <div>
     <div class="main">
       <div class="title">关于DCASH</div>
-      <img class="token" src="@/assets/img/dcash_bg.png">
+      <img class="token" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/dcash_bg.png">
       <div class="content">
         DCASH，小镇现钞，是游戏中的通用货币在游戏世界中采购、升级等获得需要消耗DCASH。从事生产、完成订单任务可以获得更多DCASH。
       </div>
@@ -12,7 +12,7 @@
     </div>
     <div class="main">
       <div class="title">关于DFS</div>
-      <img class="token" src="@/assets/img/dfs_bg.png">
+      <img class="token" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/dfs_bg.png">
       <div class="content">
         DFS (Decentralized Finance Share) 是将所有DFS社区成员团结在一起的粘合剂。持有DFS可以参与游戏中的特殊采购DCASH兑换。
       </div>

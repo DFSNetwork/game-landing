@@ -13,19 +13,19 @@
       <div class="items flexb" v-if="act === 0">
         <div class="item">
           <div class="land">
-            <img class="crop" src="@/assets/img/barley_img.png">
+            <img class="crop" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/barley_img.png">
           </div>
           <div class="name">麦子</div>
         </div>
         <div class="item">
           <div class="land">
-            <img class="crop" src="@/assets/img/corn_img.png">
+            <img class="crop" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/corn_img.png">
           </div>
           <div class="name">玉米</div>
         </div>
         <div class="item">
           <div class="land">
-            <img class="crop" src="@/assets/img/carrot_img.png">
+            <img class="crop" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/carrot_img.png">
           </div>
           <div class="name">胡萝卜</div>
         </div>
@@ -33,19 +33,19 @@
       <div class="items flexb pasture" v-else-if="act === 1">
         <div class="item">
           <div class="land">
-            <img class="amimal" src="@/assets/img/cow.png">
+            <img class="amimal" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/cow.png">
           </div>
           <div class="name">奶牛</div>
         </div>
         <div class="item">
           <div class="land">
-            <img class="amimal" src="@/assets/img/chicken.png">
+            <img class="amimal" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/chicken.png">
           </div>
           <div class="name">鸡</div>
         </div>
         <div class="item">
           <div class="land">
-            <img class="amimal" src="@/assets/img/sheep.png">
+            <img class="amimal" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/sheep.png">
           </div>
           <div class="name">羊</div>
         </div>
@@ -53,19 +53,19 @@
       <div class="items flexb factory" v-else>
         <div class="item">
           <div class="land">
-            <img class="fay" src="@/assets/img/feedmill.png">
+            <img class="fay" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/feedmill.png">
           </div>
           <div class="name">饲料厂</div>
         </div>
         <div class="item">
           <div class="land">
-            <img class="fay" src="@/assets/img/bakery.png">
+            <img class="fay" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/bakery.png">
           </div>
           <div class="name">烘培坊</div>
         </div>
         <div class="item">
           <div class="land">
-            <img class="fay" src="@/assets/img/gemfactory.png">
+            <img class="fay" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/gemfactory.png">
           </div>
           <div class="name">宝石工厂</div>
         </div>

@@ -18,22 +18,22 @@
 
       <div class="flexb wrap">
         <div class="item">
-          <img src="@/assets/img/land.png">
+          <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/land.png">
           <div class="sTitle">田地耕种</div>
           <div class="sContain">田地可以种植多种多样的植物。收获的产品可以在市场上出售或进一步加工升级田地，可以提高每块地的产能。</div>
         </div>
         <div class="item">
-          <img src="@/assets/img/pasture.png">
+          <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/pasture.png">
           <div class="sTitle">畜牧养殖</div>
           <div class="sContain">通过喂养奶牛、土鸡、绵羊等农场动物，获得它们的产物，并在市场上出售或进一步加工。升级动物可以提高它们的产能。</div>
         </div>
         <div class="item">
-          <img src="@/assets/img/factory.png">
+          <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/factory.png">
           <div class="sTitle">工厂作坊</div>
           <div class="sContain">制造各种美味的食品和实用的生活用品。食品和生活用品比耕种和养殖的流程复杂，但产品通常能卖出更好的价格。</div>
         </div>
         <div class="item">
-          <img src="@/assets/img/gem.png">
+          <img src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/gem.png">
           <div class="sTitle">工业学院</div>
           <div class="sContain">产能研究中心，可以查看和管理每个生产单位的等级。提高等级，可以进一步提高生产效率，加速小镇的繁荣建设。</div>
         </div>

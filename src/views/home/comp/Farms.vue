@@ -5,7 +5,7 @@
       构建的新游戏模式，由玩家拥有
       和运营。通过游戏赚取DFS，来
       参与建设风车小镇的未来。</div>
-    <img class="shop" src="@/assets/img/shop_bg.png">
+    <img class="shop" src="https://cdn.jsdelivr.net/gh/defis-net/game-landing/src/assets/img/shop_bg.png">
   </div>
 </template>
 
